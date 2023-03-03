@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="formulario">
+        <form id="form">
+          <h1>Formulário</h1>
+          <div class="">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required />
+          </div>
+          <textarea
+            name="text-area"
+            id="text-area"
+            cols="50"
+            rows="10"
+            placeholder="Digite algo..."
+          ></textarea>
+          <button type="submit" id="btn">
+            <span class="span-mother">
+              <span>E</span>
+              <span>n</span>
+              <span>v</span>
+              <span>i</span>
+              <span>a</span>
+              <span>r</span>
+            </span>
+            <span class="span-mother2">
+              <span>E</span>
+              <span>n</span>
+              <span>v</span>
+              <span>i</span>
+              <span>a</span>
+              <span>r</span>
+            </span>
+          </button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
