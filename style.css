@@ -72,6 +72,7 @@ textarea {
   border: 1px solid #fff;
   color: #ffffff8e;
   resize: none;
+  transition: 3ms;
 }
 textarea:hover {
   border: 1px solid #3653f8;
